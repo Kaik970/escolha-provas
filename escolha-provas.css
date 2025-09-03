@@ -78,6 +78,9 @@ article {
 .bt-1,
 .bt-2,
 .bt-3 {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    transform: translateY(-5px);
     border-radius: 10px;
     font-size: large;
     width: 300px;
